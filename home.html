@@ -1,0 +1,1967 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>StreamLocal - Bringing Local Entertainment to Your Screen</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 days">
+
+<meta http-equiv="content-language" content="en"/>
+<meta name="description" content="Watch The Best Movies & Tv-Series online - Watch The Your Favourate Music & Podcast Online - Very fast streaming"/>
+<meta name="keywords" content="StreamLocal streaming"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+<link rel="shortcut icon" href="/image/Logo/streamlocal.png"
+      type="image/x-icon"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content=""/>
+<meta property="og:title"
+      content="StreamLocal Homepage - Bringing Local Entertainment to Your Screen"/>
+<meta property="og:image" content="/image/Logo/streamlocal.png"/>
+<meta property="og:image:width" content="650">
+<meta property="og:image:height" content="350">
+<meta property="og:description" content="Watch The Best Movies & Tv-Series online - Watch The Your Favourate Music & Podcast Online - Very fast streamin"/>
+<!--Begin: Stylesheet-->
+<link rel="stylesheet" href="css/Bootstrap/css/bootstrap.main.css">
+<link rel="stylesheet" href="library/fonts-590/css/txtall.css">
+<link rel="stylesheet" href="css/style.main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...your-sha512-hash..." crossorigin="anonymous" />
+<!--End: Stylesheet-->
+<script src="library/vue/vue.min.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <div style="display: none">
+    
+        <h1>StreamLocal</h1>
+    
+    
+</div>
+    
+<div id="sidebar_menu_bg"></div>
+<div id="sidebar_menu">
+    <button class="btn btn-circle btn-secondary toggle-sidebar"><i class="fas fa-arrow-left"></i></button>
+    <ul class="nav sidebar_menu-list">
+        <li class="nav-item"><a class="nav-link" href="#" title="Home">
+                <div class="nl-icon mr-2"><i class="fas fa-home"></i></div>Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" title="Movies">
+                <div class="nl-icon mr-2"><i class="fas fa-play-circle"></i></div>Movies</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" title="TV Shows">
+                <div class="nl-icon mr-2"><i class="fas fa-video"></i></div>TV Shows</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Podcast.html" title="Top IMDB">
+                <div class="nl-icon mr-2"><i class="fas fa-microphone"></i></div>Podcast</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" title="Music">
+                <div class="nl-icon mr-2"><i class="fas fa-music"></i></div>
+                Music</a></li>
+        <li class="nav-item spacing"></li>
+        <li class="nav-item"><a class="nav-link nav-link-sub"
+                                title="Genre">Genre</a>
+            <div class="sidebar_menu-sub" id="sidebar_subs_genre">
+                <ul class="nav sub-menu">
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/action"
+                                                title="Action">Action</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/action-adventure"
+                                                title="Action &amp; Adventure">Action &amp; Adventure</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/adventure"
+                                                title="Adventure">Adventure</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/animation"
+                                                title="Animation">Animation</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/biography"
+                                                title="Biography">Biography</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/comedy"
+                                                title="Comedy">Comedy</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/crime"
+                                                title="Crime">Crime</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/documentary"
+                                                title="Documentary">Documentary</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/drama"
+                                                title="Drama">Drama</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/family"
+                                                title="Family">Family</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/fantasy"
+                                                title="Fantasy">Fantasy</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/history"
+                                                title="History">History</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/horror"
+                                                title="Horror">Horror</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/kids"
+                                                title="Kids">Kids</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/music"
+                                                title="Music">Music</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/mystery"
+                                                title="Mystery">Mystery</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/news"
+                                                title="News">News</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/reality"
+                                                title="Reality">Reality</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/romance"
+                                                title="Romance">Romance</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/sci-fi-fantasy"
+                                                title="Sci-Fi &amp; Fantasy">Sci-Fi &amp; Fantasy</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/science-fiction"
+                                                title="Science Fiction">Science Fiction</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/soap"
+                                                title="Soap">Soap</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/talk"
+                                                title="Talk">Talk</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/thriller"
+                                                title="Thriller">Thriller</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/tv-movie"
+                                                title="TV Movie">TV Movie</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/war"
+                                                title="War">War</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/war-politics"
+                                                title="War &amp; Politics">War &amp; Politics</a></li>
+                    
+                        <li class="nav-item"><a class="nav-link" href="/genre/western"
+                                                title="Western">Western</a></li>
+                    
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </li>
+    </ul>
+    <div class="clearfix"></div>
+</div>
+
+    <div id="wrapper">
+        <div id="header">
+    <div class="container">
+        <div id="mobile_search"><i class="fa fa-search"></i></div>
+        <a href="home.html" id="logo" title="StreamLocal">
+            <img src="/image/Logo/streamlocal.png" alt="Logo">
+            
+            <div class="clearfix"></div>
+        </a>
+        <!--Begin: Menu-->
+        <div id="header_browser">
+            <div class="header-btn"><i class="fas fa-bars mr-2"></i>Browse</div>
+        </div>
+        <!--End: Menu-->
+        <div id="search">
+            <div class="search-content">
+                <form class="search-form" @submit="search">
+                    <div class="search-icon"><i class="fa fa-search"></i></div>
+                    <input v-model="keyword" type="text" class="form-control search-input" autocomplete="off"
+                           name="keyword" placeholder="Enter keywords...">
+                </form>
+                <div class="nav search-result-pop search-suggest"></div>
+            </div>
+        </div>
+        <div id="header_right">
+            <div id="header_login"></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+        <div id="main-wrapper">
+            <div class="container">
+                <div id="top_slider" class="with-social">
+                    <!--Begin: Slider-->
+                    <div id="slider">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="swiper-slide">
+                                <div class="slide-photo">
+                                    <a title="Abel mutua Headline Hitters" href="/movie/Abel mutua Headline Hitters">
+                                        <img src="image/tv show/Abel mutua Headline Hitters.jpg"
+                                             title="Abel mutua Headline Hitters" alt="Abel mutua Headline Hitters">
+                                    </a>
+                                </div>
+                                <a href="/movie/Abel mutua Headline Hitters" class="slide-mask" title="Abel mutua Headline Hitters"></a>
+                                <div class="slide-caption-wrap">
+                                    <div class="slide-caption">
+                                        <a href="/movie/Abel mutua Headline Hitters" class="film-poster">
+                                            <img src="image/tv show/Abel mutua Headline Hitters.jpg"
+                                                 class="film-poster-img" title="Abel mutua Headline Hitters"
+                                                 alt="Abel mutua Headline Hitters">
+                                        </a>
+                                        <h2 class="film-title"><a href="/movie/Abel mutua Headline Hitters"
+                                                                  title="Abel mutua Headline Hitters">Abel mutua Headline Hitters</a></h2>
+                                        <div class="sc-detail">
+                                            <div class="scd-item"><i
+                                                        class="fas fa-star hl mr-1"></i>6
+                                            </div>
+                                            <div class="scd-item"><strong>HD-podcast</strong></div>
+                                            
+                                                <div class="scd-item m-hide"></div>
+                                            
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <p class="sc-desc">This video is part two of a series about Kenya’s Most Wanted Cousins. In this episode, I Narrate how Kenyan authorities stopped a terror attack planned by Al-Shabaab. </p>
+                                        <div class="sc-btn">
+                                            <a href="/movie/Abel mutua Headline Hitters" class="float-left btn btn-circle btn-primary"><i
+                                                        class="fa fa-play"></i></a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="slide-photo">
+                                    <a title="Click Click" href="/TV-show/Click-Click-Bang">
+                                        <img src="/image/tv show/Click Click Bang.jpg"
+                                             title="Click Click" alt="Click Click">
+                                    </a>
+                                </div>
+                                <a href="/TV-show/Click-Click-Bang" class="slide-mask" title="Click Click"></a>
+                                <div class="slide-caption-wrap">
+                                    <div class="slide-caption">
+                                        <a href="/TV-show/Click-Click-Bang" class="film-poster">
+                                            <img src="/image/tv show/Click Click Bang.jpg"
+                                                 class="film-poster-img" title="Click Click"
+                                                 alt="Click Click">
+                                        </a>
+                                        <h2 class="film-title"><a href="/TV-show/Click-Click-Bang"
+                                                                  title="Click Click">Click Click</a></h2>
+                                        <div class="sc-detail">
+                                            <div class="scd-item"><i
+                                                        class="fas fa-star hl mr-1"></i>5.8
+                                            </div>
+                                            <div class="scd-item"><strong>HD</strong></div>
+                                            
+                                                <div class="scd-item m-hide"></div>
+                                            
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <p class="sc-desc">A footballer turns to petty crime when his sporting career stalls. Under the wing of a crooked cop, he soon descends deeper into the criminal underworld.</p>
+                                        <div class="sc-btn">
+                                            <a href="/TV-show/Click-Click-Bang" class="float-left btn btn-circle btn-primary"><i
+                                                        class="fa fa-play"></i></a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="slide-photo">
+                                    <a title="Jackie Matubia Toxic" href="/movie/watch-Jackie Matubia Toxic-hd-103654">
+                                        <img src="/image/tv show/Jackie Matubia Toxic .png"
+                                             title="Jackie Matubia Toxic" alt="Jackie Matubia Toxic">
+                                    </a>
+                                </div>
+                                <a href="/movie/watch-Jackie-Matubia-Toxic-hd-103654" class="slide-mask" title="Jackie Matubia Toxic"></a>
+                                <div class="slide-caption-wrap">
+                                    <div class="slide-caption">
+                                        <a href="/movie/watch-Jackie Matubia Toxic-hd-103654" class="film-poster">
+                                            <img src="/image/tv show/Jackie Matubia Toxic .png"
+                                                 class="film-poster-img" title="Jackie Matubia Toxic"
+                                                 alt="Jackie Matubia Toxic">
+                                        </a>
+                                        <h2 class="film-title"><a href="/movie/watch-Jackie Matubia Toxic-hd-103654"
+                                                                  title="Jackie Matubia Toxic">Jackie Matubia Toxic</a></h2>
+                                        <div class="sc-detail">
+                                            <div class="scd-item"><i
+                                                        class="fas fa-star hl mr-1"></i>7.3
+                                                        <span class="fdi-item">S3:E2</span>
+                                            </div>
+                                            <div class="scd-item"><strong>HD</strong></div>
+                                            
+                                                <div class="scd-item m-hide"></div>
+                                            
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <p class="sc-desc">Drawing from her own real-life experiences and those of people around her, Jackie Matubia has crafted a narrative that dives deep into the emotional turmoil of toxic relationships. In 'Toxic', Jackie Matubia stars as Janet, while Michael Saruni takes on the role of Tim, and Auudi Rowa plays Cycy</p>
+                                        <div class="sc-btn">
+                                            <a href="/movie/watch-Jackie Matubia Toxic-hd-103654" class="float-left btn btn-circle btn-primary"><i
+                                                        class="fa fa-play"></i></a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="slide-photo">
+                                    <a title="Kam u stay" href="/movie/watch-Kam-u-stay-2-hd-66673">
+                                        <img src="/image/tv show/Kam u stay.png"
+                                             title="Kam u stay" alt="Kam u stay">
+                                    </a>
+                                </div>
+                                <a href="/movie/watch-Kam-u-stay-2-hd-66673" class="slide-mask" title="Kam u stay"></a>
+                                <div class="slide-caption-wrap">
+                                    <div class="slide-caption">
+                                        <a href="/movie/watch-Kam-u-stay-2-hd-66673" class="film-poster">
+                                            <img src="/image/tv show/Kam u stay.png"
+                                                 class="film-poster-img" title="Kam u stay"
+                                                 alt="Kam u stay">
+                                        </a>
+                                        <h2 class="film-title"><a href="/movie/watch-Kam-u-stay-2-hd-66673"
+                                                                  title="Kam u stay">Kam u stay</a></h2>
+                                        <div class="sc-detail">
+                                            <div class="scd-item"><i
+                                                        class="fas fa-star hl mr-1"></i>N/A
+                                            </div>
+                                            <div class="scd-item"><strong>HD</strong></div>
+                                            
+                                                <div class="scd-item m-hide"></div>
+                                            
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <p class="sc-desc">Kam U Stay is a sitcom that shows that there is a thin line between love and hate. John Simba and Brenda Konyo have been dating seriously for a year now and as we start the show, they've decided to test run living together before getting married, an idea that is not endorsed by any of their respective family members.</p>
+                                        <div class="sc-btn">
+                                            <a href="/movie/watch-Kam-u-stay-2-hd-66673" class="float-left btn btn-circle btn-primary"><i
+                                                        class="fa fa-play"></i></a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="slide-photo">
+                                    <a title="Lies that bind" href="/movie/watch-Lies that bind-hd-103219">
+                                        <img src="/image/tv show/Lies_that_bind_poster_image.jpeg"
+                                             title="Lies that bind" alt="Lies that bind">
+                                    </a>
+                                </div>
+                                <a href="/movie/watch-Lies that bind-hd-103219" class="slide-mask" title="Lies that bind"></a>
+                                <div class="slide-caption-wrap">
+                                    <div class="slide-caption">
+                                        <a href="/movie/watch-Lies that bind-hd-103219" class="film-poster">
+                                            <img src="/image/tv show/Lies_that_bind_poster_image.jpeg"
+                                                 class="film-poster-img" title="Lies that bind"
+                                                 alt="Lies that bind">
+                                        </a>
+                                        <h2 class="film-title"><a href="/movie/watch-Lies that bind-hd-103219"
+                                                                  title="Lies that bind">Lies that bind</a></h2>
+                                        <div class="sc-detail">
+                                            <div class="scd-item"><i
+                                                        class="fas fa-star hl mr-1"></i>6.5
+                                            </div>
+                                            <div class="scd-item"><strong>HD</strong></div>
+                                            
+                                                <div class="scd-item m-hide"></div>
+                                            
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <p class="sc-desc">Lies that Bind is a Kenyan drama series that revolves around the wealthy Juma family. It majors mainly about how the love for money can destroy a family.</p>
+                                        <div class="sc-btn">
+                                            <a href="/movie/watch-Lies that bind-hd-103219" class="float-left btn btn-circle btn-primary"><i
+                                                        class="fa fa-play"></i></a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="slide-photo">
+                                    <a title="Mali" href="/movie/watch-Mali-hd-103546">
+                                        <img src="/image/tv show/Mali.jfif"
+                                             title="Mali" alt="Mali">
+                                    </a>
+                                </div>
+                                <a href="/movie/watch-Mali-hd-103546" class="slide-mask" title="Mali"></a>
+                                <div class="slide-caption-wrap">
+                                    <div class="slide-caption">
+                                        <a href="/movie/watch-Mali-hd-103546" class="film-poster">
+                                            <img src="/image/tv show/Mali.jfif"
+                                                 class="film-poster-img" title="Mali"
+                                                 alt="Mali">
+                                        </a>
+                                        <h2 class="film-title"><a href="/movie/watch-Mali-hd-103546"
+                                                                  title="Mali">Mali</a></h2>
+                                        <div class="sc-detail">
+                                            <div class="scd-item"><i
+                                                        class="fas fa-star hl mr-1"></i>6.2
+                                            </div>
+                                            <div class="scd-item"><strong>HD</strong></div>
+                                            
+                                                <div class="scd-item m-hide"></div>
+                                            
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <p class="sc-desc">Mali revolves around the lives of an affluent family, rich to the bone but like every family of this nature, plagued with deeper public hidden issues. The polygamous patriarch of the family is a chauvinist who runs his two homes like a military camp</p>
+                                        <div class="sc-btn">
+                                            <a href="/movie/watch-Mali-hd-103546" class="float-left btn btn-circle btn-primary"><i
+                                                        class="fa fa-play"></i></a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-button-prev"><i class="fas fa-angle-left"></i></div>
+                        <div class="swiper-button-next"><i class="fas fa-angle-right"></i></div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--/End: Slider-->
+                    <div class="ts_sb">
+                        <div class="basic-film-list">
+                            
+                            <div class="basic-item">
+                                <div class="film-poster">
+                                    <a title="Click Click" href="/tv/watch-Click Click-hd-42258">
+                                        <img src="/image/tv show/Click Click Bang.jpg"
+                                             class="film-poster-img"
+                                             title="Click Click" alt="Click Click">
+                                    </a>
+                                </div>
+                                <div class="film-detail">
+                                    <div class="fd-infor">
+                                    <span class="fdi-item"><i
+                                                class="fas fa-star hl mr-1"></i>8.2</span>
+                                        <span class="fdi-item"><strong>HD</strong></span>
+                                        
+                                            <span class="fdi-item">S1
+                                            :E6</span>
+                                        
+                                    </div>
+                                    <h3 class="film-name"><a href="/tv/watch-Click Click-hd-42258"
+                                                             title="Click Click">Click Click</a></h3>
+                                    <p class="sc-desc">A footballer turns to petty crime when his sporting career stalls. Under the wing of a crooked cop, he soon descends deeper into the criminal underworld.</p>
+                                    <div class="fd-btn">
+                                        <a href="/tv/watch-Click Click-hd-42258" class="btn btn-sm btn-play btn-secondary"><i
+                                                    class="fas fa-play mr-3"></i>Watch now</a>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            
+                            <div class="basic-item">
+                                <div class="film-poster">
+                                    <a title="Nairobi Half Life" href="/movie/watch-Nairobi Half Life-4-hd-16861">
+                                        <img src="/image/Movies/Nairobi Half Life.jfif"
+                                             class="film-poster-img"
+                                             title="Nairobi Half Life" alt="Nairobi Half Life">
+                                    </a>
+                                </div>
+                                <div class="film-detail">
+                                    <div class="fd-infor">
+                                    <span class="fdi-item"><i
+                                                class="fas fa-star hl mr-1"></i>N/A</span>
+                                        <span class="fdi-item"><strong>HD</strong></span>
+                                        
+                                            <span class="fdi-item"></span>
+                                        
+                                    </div>
+                                    <h3 class="film-name"><a href="/movie/watch-Nairobi Half Life-4-hd-16861"
+                                                             title="Nairobi Half Life">Nairobi Half Life</a></h3>
+                                    <p class="sc-desc"></p>
+                                    <div class="fd-btn">
+                                        <a href="/movie/watch-Nairobi Half Life-4-hd-16861" class="btn btn-sm btn-play btn-secondary"><i
+                                                    class="fas fa-play mr-3"></i>Watch now</a>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            
+                            <div class="basic-item">
+                                <div class="film-poster">
+                                    <a title="Disconnect" href="/movie/watch-Disconnect-hd-68135">
+                                        <img src="/image/Movies/disconnect.jpg"
+                                             class="film-poster-img"
+                                             title="Disconnect" alt="Disconnect">
+                                    </a>
+                                </div>
+                                <div class="film-detail">
+                                    <div class="fd-infor">
+                                    <span class="fdi-item"><i
+                                                class="fas fa-star hl mr-1"></i>7.1</span>
+                                        <span class="fdi-item"><strong>HD</strong></span>
+                                        
+                                            <span class="fdi-item"></span>
+                                        
+                                    </div>
+                                    <h3 class="film-name"><a href="/movie/watch-Disconnect-hd-68135"
+                                                             title="Disconnect">Disconnect</a></h3>
+                                    <p class="sc-desc"></p>
+                                    <div class="fd-btn">
+                                        <a href="/movie/watch-Disconnect-hd-68135" class="btn btn-sm btn-play btn-secondary"><i
+                                                    class="fas fa-play mr-3"></i>Watch now</a>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="ts-social">
+                        <div class="tss-head">Share with</div>
+                        <div class="tss-box">
+                            <div class="addthis_inline_share_toolbox_5v6t" url="https://Streamlocal.se/home"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                
+
+                <div style="text-align:center;margin-bottom: 20px;margin-top:20px;display:none;" id="hgiks-top"></div>
+                <div style="text-align: center;margin-bottom: 20px;margin-top:20px;display:none;" id="vpn-top"></div>
+                
+                <section class="block_area block_area_home section-id-01">
+                    <div class="block_area-header block_area-header-tabs">
+                        <div class="float-left bah-heading mr-4">
+                            <h2 class="cat-heading">Trending</h2>
+                        </div>
+                        <div class="float-left bah-tabs">
+                            <ul class="nav nav-tabs pre-tabs">
+                                <li class="nav-item"><a class="nav-link active" data-toggle="tab"
+                                                        href="#trending-movies"
+                                                        title="Trending Movies"><i
+                                                class="fa fa-play-circle mr-2"></i> Movies</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#trending-tv"
+                                                        title="Trending TV Shows"><i
+                                                class="fa fa-list mr-2"></i> TV Shows</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Podacast"
+                                                        title="Trending podcast"><i
+                                                class="fa fa-microphone mr-2"></i> podcasts</a></li>
+                                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Music"
+                                                        title="Trending Music"><i
+                                                class="fa fa-music mr-2"></i> Music </a></li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="tab-content">
+                        <div id="trending-movies" class="tab-pane active">
+                            <div class="block_area-content block_area-list film_list film_list-grid">
+                                <div class="film_list-wrap">
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/Mpakani Story of the North tv series.jpg"
+             class="film-poster-img lazyload" title="Mpakani Story of the North tv series"
+             alt="Mpakani Story of the North tv series">
+        <a href="/movie/watch-poor-things-hd-103753" class="film-poster-ahref"
+           title="Mpakani Story of the North tv series" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>8.4</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+
+                    <span class="fdi-item">S1:E10</span>                
+                
+                    <span class="fdi-item">2023</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-poor-things-hd-103753" 
+                        title="Mpakani Story of the North tv series">Mpakani Story of the North tv series</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-poor-things-hd-103753"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/Sincerely Daisy.jpg"
+             class="film-poster-img lazyload" title="Sincerely Daisy"
+             alt="Sincerely Daisy">
+        <a href="/movie/watch-Sincerely Daisy-hd-41796" class="film-poster-ahref"
+           title="Sincerely Daisy" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>8.5</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2019</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-Sincerely Daisy-hd-41796" 
+                        title="Sincerely Daisy">Sincerely Daisy</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-Sincerely Daisy-hd-41796"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/disconnect.jpg"
+             class="film-poster-img lazyload" title="disconnect"
+             alt="disconnect">
+        <a href="/movie/watch-disconnect-hd-106510" class="film-poster-ahref"
+           title="disconnect" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>7.1</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2020</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-disconnect-hd-106510" 
+                        title="disconnect">disconnect</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-disconnect-hd-106510"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/married to work.jpg"
+             class="film-poster-img lazyload" title="married to work."
+             alt="married to work.">
+        <a href="/movie/married-to-work" class="film-poster-ahref"
+           title="married to work." rel=&#34;nofollow&#34;></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>8</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2021</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-married to work.-hd-6752" rel=&#34;nofollow&#34;
+                        title="married to work.">married to work.</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a rel=&#34;nofollow&#34; href="/movie/watch-married to work.-hd-6752"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/Jackie Matubia Toxic .png"
+             class="film-poster-img lazyload" title="Jackie Matubia Toxic"
+             alt="Jackie Matubia Toxic">
+        <a href="/movie/watch-Jackie Matubia Toxic-hd-103654" class="film-poster-ahref"
+           title="Jackie Matubia Toxic" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>7.3</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+
+                    <span class="fdi-item">S3:E2</span>
+
+                    <span class="fdi-item">2023</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-Jackie Matubia Toxic-hd-103654" 
+                        title="Jackie Matubia Toxic">Jackie Matubia Toxic</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-Jackie Matubia Toxic-hd-103654"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/veve.jfif"
+             class="film-poster-img lazyload" title="veve"
+             alt="veve">
+        <a href="/movie/watch-veve-hd-104338" class="film-poster-ahref"
+           title="veve" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>6.6</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2023</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-veve-hd-104338" 
+                        title="veve">veve</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-veve-hd-104338"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/kati kati.jfif"
+             class="film-poster-img lazyload" title="kati kati"
+             alt="kati kati">
+        <a href="/movie/watch-kati-kati-hd-106366" class="film-poster-ahref"
+           title="kati kati" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>7.7</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2023</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-kati kati-hd-106366" 
+                        title="kati kati">kati kati</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-kati kati-hd-106366"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/something necessary.jfif"
+             class="film-poster-img lazyload" title="something necessary"
+             alt="something necessary">
+        <a href="/movie/watch-something necessary-hd-106189" class="film-poster-ahref"
+           title="something necessary" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>6.5</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2024</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-something necessary-hd-106189" 
+                        title="something necessary">something necessary</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-something necessary-hd-106189"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/Nafsi_.jpg"
+             class="film-poster-img lazyload" title="Nafsi"
+             alt="Nafsi">
+        <a href="/movie/watch-Nafsi-hd-106489" class="film-poster-ahref"
+           title="Nafsi" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>5.4</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2024</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-Nafsi-hd-106489" 
+                        title="Nafsi">Nafsi</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-Nafsi-hd-106489"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="image/Movies/uradi.jpg"
+             class="film-poster-img lazyload" title="Uradi"
+             alt="Uradi">
+        <a href="/movie/watch-Uradi-hd-98446" class="film-poster-ahref"
+           title="Uradi" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>8.8</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2023</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-Uradi-hd-98446" 
+                        title="Uradi">Uradi</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-Uradi-hd-98446"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/Ayaanle.jpg"
+             class="film-poster-img lazyload" title="Ayaanle"
+             alt="Ayaanle">
+        <a href="/movie/watch-Ayaanle-hd-105676" class="film-poster-ahref"
+           title="Ayaanle" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>6.1</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2024</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-Ayaanle-hd-105676" 
+                        title="Ayaanle">Ayaanle</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-Ayaanle-hd-105676"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="image/Movies/An Instant Dad.jpg"
+             class="film-poster-img lazyload" title="An Instant Dad"
+             alt="An Instant Dad">
+        <a href="/movie/watch-An-Instant-Dad-hd-104038" class="film-poster-ahref"
+           title="An-Instant-Dad" rel=&#34;nofollow&#34;></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>6.8</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2023</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-An-Instant-Dad-hd-104038" rel=&#34;nofollow&#34;
+                        title="An-Instant-Dad">An-Instant-Dad</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a rel=&#34;nofollow&#34; href="/movie/watch-An-Instant-Dad-hd-104038"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>                              
+
+                                    
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="trending-tv" class="tab-pane">
+                            <div class="block_area-content block_area-list film_list film_list-grid">
+                                <div class="film_list-wrap">
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/kyallo kulture.jfif"
+             class="film-poster-img lazyload" title="kyallo kulture"
+             alt="kyallo kulture">
+        <a href="/tv/watch-kyallo-kulture-hd-106618" class="film-poster-ahref"
+           title="Shōgun" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>N/A</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S3:E2</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-shogun-hd-106618" 
+                        title="Shōgun">Shōgun</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-shogun-hd-106618"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/kapuni.jpg"
+             class="film-poster-img lazyload" title="kapuni"
+             alt="kapuni">
+        <a href="/tv/watch-kapuni-hd-106516" class="film-poster-ahref"
+           title="kapuni" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>N/A</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S4:E1</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-kapuni-hd-106516" 
+                        title="kapuni">kapuni</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-kapuni-hd-106516"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/Lies_that_bind_poster_image.jpeg"
+             class="film-poster-img lazyload" title="Lies that bind"
+             alt="Lies that bind">
+        <a href="/tv/watch-Lies that bind-hd-106435" class="film-poster-ahref"
+           title="Lies that bind" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>7.5</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S2:E8</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-Lies that bind-hd-106435" 
+                        title="Lies that bind">Lies that bind</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-Lies that bind-hd-106435"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/Makutano Junction tv series.jpg"
+             class="film-poster-img lazyload" title="Makutano Junction tv series"
+             alt="Makutano Junction tv series">
+        <a href="/tv/watch-Makutano Junction tv series-hd-39514" class="film-poster-ahref"
+           title="Makutano Junction tv series" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>8.9</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S21:E1094</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-Makutano Junction tv series-hd-39514" 
+                        title="Makutano Junction tv series">Makutano Junction tv series</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-Makutano Junction tv series-hd-39514"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/Mali.jfif"
+             class="film-poster-img lazyload" title="Mali"
+             alt="Mali">
+        <a href="/tv/watch-Mali-hd-78481" class="film-poster-ahref"
+           title="Mali" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>7.1</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S2:E4</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-Mali-hd-78481" 
+                        title="Mali">Mali</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-Mali-hd-78481"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                                        
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/Mpakani Story of the North tv series.jpg"
+             class="film-poster-img lazyload" title="Mpakani Story of the North"
+             alt="Mpakani Story of the North">
+        <a href="/tv/watch-Mpakani Story of the North-hd-106612" class="film-poster-ahref"
+           title="Mpakani Story of the North" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>N/A</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S1:E32</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-Mpakani Story of the North-hd-106612" 
+                        title="Mpakani Story of the North">Mpakani Story of the North</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-Mpakani Story of the North-hd-106612"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                                    
+                            
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div style="text-align:center;margin-bottom: 20px;margin-top:20px;display:none;"
+                     id="hgiks-middle"></div>
+                <section class="block_area block_area_home section-id-02">
+                    <div class="block_area-header block_area-header-tabs">
+                        <div class="float-left bah-heading mr-4">
+                            <h2 class="cat-heading">Latest Movies</h2>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="block_area-content block_area-list film_list film_list-grid">
+                        <div class="film_list-wrap">
+                            
+                                
+                            <div class="flw-item">
+                                <div class="film-poster">
+                                    <img src="/image/Movies/married to work.jpg"
+                                         class="film-poster-img lazyload" title="married to work."
+                                         alt="married to work.">
+                                    <a href="/movie/watch-married to work.-hd-6752" class="film-poster-ahref"
+                                       title="married to work." ></a>
+                                </div>
+                                <div class="film-detail">
+                                    <div class="fd-infor">
+                                        
+                                            <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>8</span>
+                                            
+                                                <span class="fdi-item"><strong>HD</strong></span>
+                                            
+                                            
+                                                <span class="fdi-item">2024</span>
+                                            
+                                        
+                                    </div>
+                                    
+                                        <h3 class="film-name"><a
+                                                    href="/movie/watch-married to work.-hd-6752" 
+                                                    title="married to work.">married to work.</a>
+                                        </h3>
+                                    
+                                    <div class="fd-btn">
+                                        <a  href="/movie/watch-married to work.-hd-6752"
+                                                    class="btn btn-sm btn-play btn-secondary"><i
+                                                    class="fas fa-play mr-3"></i>Watch
+                                            now</a>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>                             
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/something necessary.jfif"
+             class="film-poster-img lazyload" title="something necessary"
+             alt="something necessary">
+        <a href="/movie/watch-something necessary-hd-106189" class="film-poster-ahref"
+           title="something necessary" rel=&#34;nofollow&#34;></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>6.5</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2024</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-something necessary-hd-106189" rel=&#34;nofollow&#34;
+                        title="something necessary">something necessary</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a rel=&#34;nofollow&#34; href="/movie/watch-something necessary-hd-106189"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                            
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/Nafsi_.jpg"
+             class="film-poster-img lazyload" title="Nafsi"
+             alt="Nafsi">
+        <a href="/movie/watch-Nafsi-hd-106192" class="film-poster-ahref"
+           title="veve" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>4.8</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2024</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-Nafsi-hd-106192" 
+                        title="veve">Nafsi</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-veve-hd-106192"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                            
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/Sincerely Daisy.jpg"
+             class="film-poster-img lazyload" title="Sincerely Daisy"
+             alt="Sincerely Daisy">
+        <a href="/movie/watch-Sincerely Daisy-hd-41796" class="film-poster-ahref"
+           title="Sincerely Daisy" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>4.8</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2024</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-Sincerely Daisy-hd-41796" 
+                        title="Sincerely Daisy">Sincerely Daisy</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-Sincerely Daisy-hd-41796"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                            
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/disconnect.jpg"
+             class="film-poster-img lazyload" title="Disconnect"
+             alt="Disconnect">
+        <a href="/movie/watch-Disconnect-hd-106198" class="film-poster-ahref"
+           title="disconnect" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>7.2</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2024</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-Disconnect-hd-106198" 
+                        title="disconnect">disconnect</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-Disconnect-hd-106198"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>         
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/Movies/veve.jfif"
+             class="film-poster-img lazyload" title="veve"
+             alt="veve">
+        <a href="/movie/watch-veve-hd-104338" class="film-poster-ahref"
+           title="veve" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>6.6</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">2023</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/movie/watch-veve-hd-104338" 
+                        title="veve">veve</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/movie/watch-veve-hd-104338"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="block_area block_area_home section-id-02">
+                    <div class="block_area-header block_area-header-tabs">
+                        <div class="float-left bah-heading mr-4">
+                            <h2 class="cat-heading">Latest TV Shows</h2>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="block_area-content block_area-list film_list film_list-grid">
+                        <div class="film_list-wrap">
+                            
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="image/tv show/Mpakani Story of the North.jpg"
+             class="film-poster-img lazyload" title="Mpakani Story of the North"
+             alt="Mpakani Story of the North">
+        <a href="/tv/watch-Mpakani Story of the North-hd-106612" class="film-poster-ahref"
+           title="Mpakani Story of the North" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>N/A</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S1:E32</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-Mpakani Story of the North-hd-106612" 
+                        title="Mpakani Story of the North">Mpakani Story of the North</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-Mpakani Story of the North-hd-106612"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                            
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="image/tv show/Abel mutua Headline Hitters.jpg"
+             class="film-poster-img lazyload" title="Abel mutua Headline Hitters"
+             alt="Abel mutua Headline Hitters">
+        <a href="/tv/watch-Abel mutua Headline Hitters-hd-106609" class="film-poster-ahref"
+           title="Abel mutua Headline Hitters" rel=&#34;nofollow&#34;></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>N/A</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S8:E8</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-Abel mutua Headline Hitters-hd-106609" rel=&#34;nofollow&#34;
+                        title="Abel mutua Headline Hitters">Abel mutua Headline Hitters</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a rel=&#34;nofollow&#34; href="/tv/watch-Abel mutua Headline Hitters-hd-106609"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                            
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="image/tv show/Click Click Bang.jpg"
+             class="film-poster-img lazyload" title="Click Click Bang"
+             alt="Click Click Bang">
+        <a href="/tv/watch-Click Click Bang-hd-106078" class="film-poster-ahref"
+           title="Click Click Bang" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>6.6</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S1:E6</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-Click Click Bang-hd-106078" 
+                        title="Click Click Bang">Click Click Bang</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-Click Click Bang-hd-106078"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                            
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="image/tv show/Hulla Balloo.jfif"
+             class="film-poster-img lazyload" title="Hulla Balloo"
+             alt="Hulla Balloo">
+        <a href="/tv/watch-Hulla Balloo-hd-67786" class="film-poster-ahref"
+           title="Hulla Balloo" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>5.3</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S4:E2</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-Hulla Balloo-hd-67786" 
+                        title="Hulla Balloo">Hulla Balloo</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-Hulla Balloo-hd-67786"
+                        class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                            
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/Jackie Matubia Toxic .png"
+             class="film-poster-img lazyload" title=""
+             alt="Toxic">
+        <a href="/tv/watch-csi-vegas-hd-72928" class="film-poster-ahref"
+           title="Toxic" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>7.3</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S3:E2</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-csi-vegas-hd-72928" 
+                        title="Toxic">Toxic</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-csi-vegas-hd-72928"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+                            
+                                
+<div class="flw-item">
+    <div class="film-poster">
+        <img src="/image/tv show/Kam u stay.png"
+             class="film-poster-img lazyload" title="Kam u stay"
+             alt="Kam u stay">
+        <a href="/tv/watch-Kam u stay-hd-106606" class="film-poster-ahref"
+           title="Kam u stay" ></a>
+    </div>
+    <div class="film-detail">
+        <div class="fd-infor">
+            
+                <span class="fdi-item"><i class="fas fa-star hl mr-1"></i>N/A</span>
+                
+                    <span class="fdi-item"><strong>HD</strong></span>
+                
+                
+                    <span class="fdi-item">S1:E40</span>
+                
+            
+        </div>
+        
+            <h3 class="film-name"><a
+                        href="/tv/watch-Kam u stay-hd-106606" 
+                        title="Kam u stay">Kam u stay</a>
+            </h3>
+        
+        <div class="fd-btn">
+            <a  href="/tv/watch-Kam u stay-hd-106606"
+                                                                                    class="btn btn-sm btn-play btn-secondary"><i
+                        class="fas fa-play mr-3"></i>Watch
+                now</a>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <h2 style="display:none;">Stream local, s flix, watch free movies, watch free series, watch movies online, watch tv online, free movies streaming</h2>
+            </div>
+        </div>
+        <div style="text-align:center;margin-bottom: 20px;margin-top:20px;display:none;" id="hgiks-bottom"></div>
+<div id="footer">
+    <h1 style="display: none;">Stream local Homepage - Free Movies and Free Series</h1>
+    <div class="container">
+        <div class="footer-links">
+            <ul class="ulclear">
+                <li><a href="/android-movies-apk" title="Android App">Android App</a></li>
+                <li><a href="/terms" title="Terms of service">Terms of service</a></li>
+                <li><a href="/contact" title="Contact">Contact</a></li>
+                <li><a href="/sitemap.xml" title="Sitemap">Sitemap</a></li>
+                
+                <li><a href="/faq" title="FAQ">FAQ</a></li>
+                
+                
+                
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div id="footer-about">
+    <div class="container">
+        <div class="about-text">
+            Stream local is a Free Movies streaming site with zero ads.
+            We let you watch movies online without having to register or paying, with over 10000 movies and TV-Series.
+            You can also Download full movies from MoviesCloud and watch it later if you want.
+        </div>
+        <p class="copyright">© Stream local</p>
+    </div>
+</div>
+
+    </div>
+    <div class="modal fade premodal premodal-login" id="modallogin" tabindex="-1" role="dialog"
+     aria-labelledby="modallogintitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-login-tabs">
+                <div class="mlt-item active">
+                    <button type="button" class="btn mlt-btn btn-light login-tab-link">Login</button>
+                </div>
+                <div class="mlt-item">
+                    <button type="button"
+                            class="btn mlt-btn btn-light register-tab-link">Register</button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="tab-content">
+                <!--Begin: tab login-->
+                <div id="modal-tab-login" class="tab-pane active auth-tab">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modallogintitle">Welcome back!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="preform model-form" @submit="login" method="post">
+                            <div v-if="error_login" class="alert alert-danger" role="alert">{{error_message}}</div>
+                            <div class="form-group model-form-group">
+                                <label class="prelabel" for="email">Email address</label>
+                                <input v-model="email" type="email" class="form-control" id="email"
+                                       placeholder="name@email.com" required>
+                            </div>
+                            <div class="form-group model-form-group">
+                                <label class="prelabel" for="password">Password</label>
+                                <input v-model="password" type="password" class="form-control" id="password"
+                                       placeholder="Password" required>
+                            </div>
+                            <div class="form-check custom-control custom-checkbox">
+                                <div class="float-left">
+                                    <input name="remember" v-model="remember" type="checkbox"
+                                           class="custom-control-input" id="remember">
+                                    <label class="custom-control-label" for="remember">Remember me</label>
+                                </div>
+                                <div class="float-right">
+                                    <a href="javascript:void(0)"
+                                       class="link-highlight text-forgot forgot-tab-link">Forgot password
+                                        ?</a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="form-group login-btn mt-4">
+                                <button class="btn btn-primary btn-block">Login</button>
+                                <div class="loading-relative" id="login-loading" style="display: none;">
+                                    <div class="loading">
+                                        <div class="span1"></div>
+                                        <div class="span2"></div>
+                                        <div class="span3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--End: tab login-->
+                <!--Begin: tab forgot-->
+                <div id="modal-tab-forgot" class="tab-pane fade auth-tab">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modallogintitle3">Reset Password</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="preform model-form" @submit="forgot_password" method="post">
+                            <div class="form-group model-form-group">
+                                <label class="prelabel" for="forgot-email">Your Email</label>
+                                <input v-model="email" type="email" class="form-control" id="forgot-email"
+                                       placeholder="name@email.com" required>
+                            </div>
+                            <div class="form-group login-btn mt-4">
+                                <button class="btn btn-primary btn-block">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--End: tab forgot-->
+                <!--Begin: tab register-->
+                <div id="modal-tab-register" class="tab-pane fade auth-tab">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modallogintitle2">Create an Account</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="preform model-form" @submit="register" method="post">
+                            <div v-if="error_register" class="alert alert-danger" role="alert">{{error_message}}
+                            </div>
+                            <div class="form-group model-form-group">
+                                <label class="prelabel" for="re-username">Your name</label>
+                                <input v-model="name" type="text" class="form-control" id="re-username"
+                                       placeholder="Name" required>
+                            </div>
+                            <div class="form-group model-form-group">
+                                <label class="prelabel" for="re-email">Email address</label>
+                                <input v-model="email" type="email" class="form-control" id="re-email"
+                                       placeholder="name@email.com" required>
+                            </div>
+                            <div class="form-group model-form-group">
+                                <label class="prelabel" for="re-password">Password</label>
+                                <input v-model="password" type="password" class="form-control" id="re-password"
+                                       placeholder="Password" required>
+                            </div>
+                            <div class="form-group model-form-group">
+                                <label class="prelabel"
+                                       for="re-confirmpassword">Confirm Password</label>
+                                <input v-model="confirm_password" type="password" class="form-control"
+                                       id="re-confirmpassword"
+                                       placeholder="Confirm Password" autocomplete="off" required>
+                            </div>
+                            <div class="form-group login-btn mt-4">
+                                <button class="btn btn-primary btn-block">Register</button>
+                                <div class="loading-relative" id="register-loading" style="display: none;">
+                                    <div class="loading">
+                                        <div class="span1"></div>
+                                        <div class="span2"></div>
+                                        <div class="span3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--End: tab register-->
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<script type="text/javascript" src="library/jquery-3.4.1/jquery.main.js"></script>
+<script type="text/javascript" src="library/popper-1.16.0/popper.main.js"></script>
+<script type="text/javascript"
+        src="library/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="library/lazysizes-5.1.1/lazysizes.main.js"
+        async></script>
+<script src="js/cookies.js"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+<script type="text/javascript"
+        src="js/Api.js"
+        async="async"></script>
+<script src="library/postscribe/postscribe.min.js"></script>
+<script>var currPage = 'genre';</script>
+<script type="text/javascript"
+        src="/js/group_11/app.min.js?v=6.3"></script>
+<script type="text/javascript"
+        src="js/login/login.js"></script>
+</body>
+</html>

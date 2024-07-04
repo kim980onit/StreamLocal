@@ -164,6 +164,11 @@ body.body-hidden {
     position: absolute
 }
 
+.mwh-logo {
+    text-align: center;
+    margin: 100px;
+}
+
 #header #logo {
     display: inline-block;
     height: 34px;
